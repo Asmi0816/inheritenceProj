@@ -1,7 +1,13 @@
 package inherit.model;
 
-public interface Barbarians 
+public class Barbarians extends ClashCharacters implements SpecialMove
 {
-
-	
+	public Barbarians()
+	{
+		super("Barbarians", 34);
+	}
+	public int hitDamage()
+	{
+		return 800;
+	}
 }

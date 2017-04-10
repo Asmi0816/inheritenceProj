@@ -31,7 +31,7 @@ public abstract class ClashCharacters
 	
 	@Override
 	public String toString() {
-		return "Name: " + name + " And how badly they'll shreck you in 1 hit: " + levelNumber + " (Each point is how many times it would kill a human)\n";
+		return "Name: " + name + " And how badly they'll shreck you in 1 hit: " + levelNumber + " (Each point is how many humans it would kill in 1 blow)\n";
 	}
 	
 }

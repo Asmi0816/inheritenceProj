@@ -29,11 +29,9 @@ public class GoblinBarrel extends ClashCharacters implements SpecialMove
 		return true;
 	}
 	
-	public String playerName(String user, String user2)
+	public int defence()
 	{
-		user = "Blue Character";
-		user2 = "Red Character";
-		return user2;
+		return 300;
 	}
 	
 }

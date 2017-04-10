@@ -28,10 +28,8 @@ public class Barbarians extends ClashCharacters implements SpecialMove
 		return false;
 	}
 	
-	public String playerName(String user, String user2)
+	public int defence()
 	{
-		user = "Blue Character";
-		user2 = "Red Character";
-		return user;
+		return 1000;
 	}
 }

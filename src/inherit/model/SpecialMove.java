@@ -1,10 +1,14 @@
 package inherit.model;
-//@author arick.smith
+/**
+ * 
+ * @author asmi0816
+ *
+ */
 
 public interface SpecialMove 
 {
 	public int hitDamage();
 	public String someName(String name);
 	public boolean wreckable();
-	public String playerName(String user, String user2);
+	public int defence();
 }

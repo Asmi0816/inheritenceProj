@@ -10,7 +10,7 @@ public class Car extends ClashCharacters implements SpecialMove
 	@Override
 	public int hitDamage() 
 	{
-		int damage = (int) Math.random()*20+1;
+		int damage = (int) (Math.random()*20)+ 1;
 		return damage;
 	}
 
@@ -32,7 +32,7 @@ public class Car extends ClashCharacters implements SpecialMove
 	@Override
 	public int defence() 
 	{
-		int defence = (int) Math.random()*10+1;
+		int defence = (int) (Math.random()*10)+1;
 		return defence;
 	}
 	

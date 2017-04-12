@@ -1,14 +1,14 @@
 package inherit.model;
 
-public class Barbarians extends ClashCharacters implements SpecialMove
+public class Giants extends ClashCharacters implements SpecialMove
 {
-	public Barbarians()
+	public Giants()
 	{
-		super("Barbarians", 34);
+		super("Giants", 34);
 	}
 	public int hitDamage()
 	{
-		return 800;
+		return 12600;
 	}
 	public String someName(String name)
 	{
@@ -30,12 +30,14 @@ public class Barbarians extends ClashCharacters implements SpecialMove
 	
 	public int defence()
 	{
-		return 1000;
+		return 12000;
 	}
 	
 	@Override
 	public String toString() {
-		return "Barbarian hit damage is " + hitDamage() + "\n" + "And has a battle name of " + someName(super.getName()) +"\n" + " Barbarians are " + wreckable() +
-				" wreckable \n" + "And it's defence level is " + defence() + "\n"+ super.toString();
+		return "Giants hit damage is " + hitDamage() + "\n" + "And has a battle name of " + someName(super.getName()) +"\n" + " Giants is " + wreckable() +
+				" wreckable \n" + "And it's defence level is " + defence()+ "\n" + super.toString();
 	}
 }
+
+

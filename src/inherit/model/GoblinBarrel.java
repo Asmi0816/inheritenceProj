@@ -33,5 +33,10 @@ public class GoblinBarrel extends ClashCharacters implements SpecialMove
 	{
 		return 300;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "GoblinBarrel hit damage is " + hitDamage() + "\n" + "And has a battle name of " + someName(super.getName()) +"\n" + " GoblinBarrel is " + wreckable() +
+				" wreckable \n" + "And it's defence level is " + defence() + "\n"+ super.toString();
+	}
 }

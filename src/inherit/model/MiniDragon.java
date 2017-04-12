@@ -33,4 +33,9 @@ public class MiniDragon extends ClashCharacters implements SpecialMove
 	{
 		return 700;
 	}
+	@Override
+	public String toString() {
+		return "MiniDragon hit damage is " + hitDamage() + "\n" + "And has a battle name of " + someName(super.getName()) +"\n" + " MiniDragon is " + wreckable() +
+				" wreckable \n" + "And it's defence level is " + defence()+ "\n" + super.toString();
+	}
 }

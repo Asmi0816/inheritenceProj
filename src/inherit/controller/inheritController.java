@@ -17,6 +17,7 @@ public class InheritController
 	{
 		baseFrame = new ClashFrame(this);
 		clash = new ArrayList<ClashCharacters>();
+		
 	}
 	
 	public String arickClicked()
